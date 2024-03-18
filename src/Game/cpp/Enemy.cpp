@@ -48,7 +48,6 @@ void  Enemy::drawHPBar()
 		);
 	}
 }
-
 void Enemy::setHP(int hp)
 {
 	if (health == MAX_HEALTH) 
@@ -57,7 +56,6 @@ void Enemy::setHP(int hp)
 		health = hp;
 	}
 }
-
 void Enemy::draw()
 {
 	drawHPBar();

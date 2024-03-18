@@ -122,6 +122,33 @@
   <ItemGroup>
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
+    <None Include="build\TinyEngine.tlog\CL.command.1.tlog" />
+    <None Include="build\TinyEngine.tlog\CL.read.1.tlog" />
+    <None Include="build\TinyEngine.tlog\CL.write.1.tlog" />
+    <None Include="build\TinyEngine.tlog\link.command.1.tlog" />
+    <None Include="build\TinyEngine.tlog\link.read.1.tlog" />
+    <None Include="build\TinyEngine.tlog\link.write.1.tlog" />
+    <None Include="build\TinyEngine.tlog\TinyEngine.lastbuildstate" />
+    <None Include="build\vc143.idb" />
+    <None Include="build\vc143.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="build\AABB.obj" />
+    <Object Include="build\Actor.obj" />
+    <Object Include="build\Bullet.obj" />
+    <Object Include="build\Camera.obj" />
+    <Object Include="build\Enemy.obj" />
+    <Object Include="build\Game.obj" />
+    <Object Include="build\main.obj" />
+    <Object Include="build\PickUp.obj" />
+    <Object Include="build\Player.obj" />
+    <Object Include="build\Tank.obj" />
+    <Object Include="build\TimerSystem.obj" />
+    <Object Include="build\TinyEngine.obj" />
+    <Object Include="build\Vector.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="build\TinyEngine.log" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
