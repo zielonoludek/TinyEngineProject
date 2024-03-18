@@ -1,5 +1,5 @@
-#include "Tank.h"
-#include "Game.h"
+#include "Game/header/Tank.h"
+#include "Game/header/Game.h"
 #include "Engine/TinyEngine.h"
 
 Tank::Tank(Vector position)

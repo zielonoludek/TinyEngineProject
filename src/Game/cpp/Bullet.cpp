@@ -1,5 +1,5 @@
-#include "Bullet.h"
-#include "Game.h"
+#include "Game/header/Bullet.h"
+#include "Game/header/Game.h"
 
 Bullet::Bullet(Vector position)
 	: Actor(position, Vector(4.f), COLOR_YELLOW)

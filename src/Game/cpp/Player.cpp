@@ -1,7 +1,7 @@
-#include "Player.h"
-#include "Game.h"
-#include "Enemy.h"
-#include "Bullet.h"
+#include "Game/header/Player.h"
+#include "Game/header/Game.h"
+#include "Game/header/Enemy.h"
+#include "Game/header/Bullet.h"
 
 Player::Player(Vector position)
 	: Actor(position, Vector(32), COLOR_WHITE)

@@ -1,7 +1,7 @@
-#include "Camera.h"
-#include "Game.h"
-#include "Actor.h"
-#include "Config.h"
+#include "Game/header/Camera.h"
+#include "Game/header/Game.h"
+#include "Game/header/Actor.h"
+#include "Engine/Config.h"
 
 void Camera::update()
 {

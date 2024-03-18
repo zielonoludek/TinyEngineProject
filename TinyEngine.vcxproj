@@ -88,36 +88,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Actor.cpp" />
     <ClCompile Include="src\Engine\TinyEngine.cpp" />
-    <ClCompile Include="src\Game\Bullet.cpp" />
-    <ClCompile Include="src\Game\Camera.cpp" />
-    <ClCompile Include="src\Game\Enemy.cpp" />
-    <ClCompile Include="src\Game\Game.cpp" />
-    <ClCompile Include="src\Game\PickUp.cpp" />
-    <ClCompile Include="src\Game\Player.cpp" />
-    <ClCompile Include="src\Game\TimerSystem.cpp" />
+    <ClCompile Include="src\Game\cpp\Actor.cpp" />
+    <ClCompile Include="src\Game\cpp\Bullet.cpp" />
+    <ClCompile Include="src\Game\cpp\Camera.cpp" />
+    <ClCompile Include="src\Game\cpp\Enemy.cpp" />
+    <ClCompile Include="src\Game\cpp\Game.cpp" />
+    <ClCompile Include="src\Game\cpp\PickUp.cpp" />
+    <ClCompile Include="src\Game\cpp\Player.cpp" />
+    <ClCompile Include="src\Game\cpp\Tank.cpp" />
+    <ClCompile Include="src\Game\cpp\TimerSystem.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Math\AABB.cpp" />
     <ClCompile Include="src\Math\Vector.cpp" />
-    <ClCompile Include="src\Game\Tank.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Actor.h" />
-    <ClInclude Include="src\Config.h" />
+    <ClInclude Include="src\Engine\Config.h" />
     <ClInclude Include="src\Engine\Input.h" />
     <ClInclude Include="src\Engine\TinyEngine.h" />
-    <ClInclude Include="src\Game\Bullet.h" />
-    <ClInclude Include="src\Game\Camera.h" />
-    <ClInclude Include="src\Game\Enemy.h" />
-    <ClInclude Include="src\Game\Game.h" />
-    <ClInclude Include="src\Game\PickUp.h" />
-    <ClInclude Include="src\Game\Player.h" />
-    <ClInclude Include="src\Game\TimerSystem.h" />
+    <ClInclude Include="src\Game\header\Actor.h" />
+    <ClInclude Include="src\Game\header\Bullet.h" />
+    <ClInclude Include="src\Game\header\Camera.h" />
+    <ClInclude Include="src\Game\header\Enemy.h" />
+    <ClInclude Include="src\Game\header\Game.h" />
+    <ClInclude Include="src\Game\header\PickUp.h" />
+    <ClInclude Include="src\Game\header\Player.h" />
+    <ClInclude Include="src\Game\header\Tank.h" />
+    <ClInclude Include="src\Game\header\TimerSystem.h" />
     <ClInclude Include="src\Math\AABB.h" />
     <ClInclude Include="src\Math\Math.h" />
     <ClInclude Include="src\Math\Vector.h" />
-    <ClInclude Include="src\Game\Tank.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

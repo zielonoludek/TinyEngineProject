@@ -1,5 +1,5 @@
-#include "Enemy.h"
-#include "Game.h"
+#include "Game/header/Enemy.h"
+#include "Game/header/Game.h"
 #include "Engine/TinyEngine.h"
 
 int Enemy::NUM_ENEMIES = 0;

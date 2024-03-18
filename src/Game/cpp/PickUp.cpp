@@ -1,4 +1,4 @@
-#include "PickUp.h"
+#include "Game/header/PickUp.h"
 
 PickUp::PickUp(Vector position)
 	: Actor(position, Vector(20), COLOR_GREEN)

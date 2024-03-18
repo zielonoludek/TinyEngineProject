@@ -1,6 +1,6 @@
 #include "Engine/TinyEngine.h"
-#include "Game/Game.h"
-#include "Config.h"
+#include "Game/header/Game.h"
+#include "Engine/Config.h"
 
 int main()
 {

@@ -1,5 +1,5 @@
-#include "Actor.h"
-#include "Game/Game.h"
+#include "Game/header/Actor.h"
+#include "Game/header/Game.h"
 
 void Actor::draw()
 {
