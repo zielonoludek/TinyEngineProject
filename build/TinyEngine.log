@@ -1,0 +1,6 @@
+﻿  Player.cpp
+D:\CppProjects\TinyEngineProject\src\Game\Player.cpp(35,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\CppProjects\TinyEngineProject\src\Game\Player.cpp(35,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\CppProjects\TinyEngineProject\src\Game\Player.cpp(60,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\CppProjects\TinyEngineProject\src\Game\Player.cpp(60,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  TinyEngine.vcxproj -> D:\CppProjects\TinyEngineProject\bin\TinyEngine_Debug.exe
